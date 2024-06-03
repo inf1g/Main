@@ -1,16 +1,15 @@
 import requests
 
 
-def weather(location):
+def get_weather(location):
     url = 'https://wttr.in'
-    payload = "?TMqn&lang=ru"
-    response = requests.get(f"{url}{location}", params=payload)
+    payload = "TMqn&lang=ru"
+    response = requests.get(f"{url}/{location}", params=payload)
     response.raise_for_status()
     return response.text
 
 
-
 if __name__ == '__main__':
-    print(weather("/london"))
-    print(weather("/svo"))
-    print(weather("/Череповец"))
+    locations = ["london", "svo", "Череповец"]
+    for location in locations:
+        print(get_weather(location))
