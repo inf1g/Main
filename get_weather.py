@@ -11,5 +11,5 @@ def get_weather(location):
 
 if __name__ == '__main__':
     locations = ["london", "svo", "Череповец"]
-    for location in locations:
-        print(get_weather(location))
+    for loc in locations:
+        print(get_weather(loc))
