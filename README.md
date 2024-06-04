@@ -14,7 +14,7 @@
 
 ## Пример работы скрипта
 
-![img.png](img.png)
+![img.png](https://i.imgur.com/2S0aH9o.jpg)
 
 
 ## Цель проекта
