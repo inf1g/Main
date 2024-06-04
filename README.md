@@ -5,8 +5,14 @@
 ## Установка
 
 1. Клонируйте репозиторий с github
-2. Установите зависимости 'pip install -r requirements.txt'
+2. Установите зависимости 
+```bash
+pip install -r requirements.txt'
+```
 3. Запустите скрипт 'get_weather.py'
+```bash
+python get_weather.py
+```
 
 ## Создано с помощью 
 
