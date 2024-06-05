@@ -25,4 +25,4 @@ python get_weather.py
 
 ## Цель проекта
 
-Код написан в учебных целях - для урока в курсе Python и API веб-сервисов на сайте [Devman](https://dvmn.org/)
+Код написан в учебных целях - для урока в курсе Python и API веб-сервисов на сайте [Devman](https://dvmn.org/) 
